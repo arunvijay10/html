@@ -8,7 +8,7 @@
 <body>
     <a href="index.html">First Page</a>
     <h1>Form</h1>
-    <form>
+    <form action="index.html" method="GET">
         <label>First Name</label>
         <input type="text" required><br>
         <label>Middle Name</label>
@@ -20,16 +20,26 @@
         <label>Email</label>
         <input type="email"><br>
         <label> Gender </label>
-        <input type="radio">
+        <input type="radio" name="choose">
         <label>Male</label>
-        <input type="radio">
+        <input type="radio" name="choose">
         <label>Female</label><br>
-
+        <label> choose</label>
         <select>
-            <label > country</label>
-            <label> State </label>
+            <option> Country  </option>
+            <option> States </option>
         </select>
-        
+        <br>
+        <label>Skills</label>
+        <br>
+        <label>programmer</label>
+        <input type="checkbox" name="common">
+        <label>Hacker</label>
+        <input type="checkbox" name="common">
+        <label>Devoloper</label>
+        <input type="checkbox" name="common"><br>
+
+
         <button type="submit">Submit</button>
 
     </form>
